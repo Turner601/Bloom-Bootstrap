@@ -1,0 +1,75 @@
+/* 
+    Header-Font: font-family: 'Cedarville Cursive', cursive; 
+    Text-Font: font-family: sans-serif
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.icon-facebook, .icon-twitter, .icon-rss {
+    font-size: 16px;
+    width: 30px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.sr-only {
+    display: none;
+}
+
+.header {
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Cedarville Cursive';
+    color: white;
+    font-weight: bold;
+}
+
+.section1 {
+    background: radial-gradient(#e9718a, #eb8ea1);
+    color: white;
+}
+
+.section2 {
+    background-color: #f4f4f6;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 10px;
+    }
+    .logo {
+        margin: 15px 0 0 0;
+    }
+    .social-list {
+        margin: 0;
+    }
+    .so-list-item {
+        padding: 15px;
+    }
+    .block1 .sub-header {
+        font-size: 22px;
+    }
+    .block1-text {
+        font-size: 16px;
+    }
+    .landing-img {
+        width: 75%;
+    }
+    .block3, .block4, .block5 {
+        border-bottom: 4px solid #f4e5e8;
+    }
+}
